@@ -8,14 +8,14 @@ public class Main {
     }
 
     public static class Product{
-        int product(int x, int y){
+        public int product(int x, int y){
             return x*y;
         }
-        int product(int x, int y, int z){
+        public int product(int x, int y, int z){
             return x*y*z;
         }
-        double product(double x, double y){
-            return x*y;
+        public double product(double x, double y){
+            return x*y*1.0;
         }
     }
 }
